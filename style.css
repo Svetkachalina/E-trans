@@ -342,7 +342,7 @@ body {
 .footer__phone-number:hover {
     color: #cdf478;
 }
-.copyright {
+.footer__copyright {
     color: #fff;
     font-weight: 400;
     font-size: 12px;
