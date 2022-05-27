@@ -382,16 +382,17 @@ body {
 @media (max-width: 1020px) {
     .container {
         padding: 0 29px;
-    } 
+    }
     .contacts__container {
-        padding-left: max(29px, calc((100% - 1180px) / 2));
+        padding-left: max(29px, calc(100% - 1180px)/2);
+        padding-right: 0;
     }
 }
-@media (max-width: 947px) {
+/* @media (max-width: 947px) {
     .container {
         padding: 0 29px;
     }
-}
+} */
 @media (max-width: 940px) {
     body {
         font-size: 14px;
@@ -487,6 +488,10 @@ body {
     }
 }
 @media (max-width: 760px) {
+
+    .header__link-phone {       
+        justify-content: end;
+    }
     .header__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
