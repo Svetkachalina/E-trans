@@ -388,11 +388,7 @@ body {
         padding-right: 0;
     }
 }
-/* @media (max-width: 947px) {
-    .container {
-        padding: 0 29px;
-    }
-} */
+
 @media (max-width: 940px) {
     body {
         font-size: 14px;
@@ -488,7 +484,9 @@ body {
     }
 }
 @media (max-width: 760px) {
-
+    .navigation__list {
+        justify-content: center;
+    }
     .header__link-phone {       
         justify-content: end;
     }
